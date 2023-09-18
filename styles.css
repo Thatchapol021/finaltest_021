@@ -1,0 +1,90 @@
+
+
+/* เปลี่ยนฟอนต์ในเว็บไซต์เป็น "Roboto" */
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+	font-family: 'PT Serif', serif;
+}
+ 
+
+center {
+    width: 100%; /* กำหนดความกว้างเท่ากับของพื้นที่ที่ตารางอยู่ */
+    height: 300px; /* กำหนดความสูงเป็น 300 พิกเซล */
+}
+
+/* ตกแต่งหัวเว็บไซต์ */
+header {
+    background-color: #8A2BE2;	
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase; /* แปลงตัวอักษรเป็นตัวใหญ่ทั้งหมด */
+}
+
+/* ตกแต่งส่วนเนื้อหาหลัก */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ตกแต่งเนื้อหาในส่วนข้อมูลส่วนตัว */
+h2 {
+    font-size: 24px;
+    color: #333; /* สีตัวอักษรเท่ๆ */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+}
+
+/* ตกแต่งรายการแบบไม่มีลูกเล่น */
+ul {
+    list-style-type: none; /* ไม่แสดงลูกเล่น */
+    padding-left: 0; /* ลบการเว้นระยะทางด้านซ้าย */
+}
+
+/* ตกแต่งรายการ */
+li {
+    margin-bottom: 10px;
+}
+
+/* ตกแต่งรูปภาพ */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #333; /* เส้นกรอบรอบรูป */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เงารอบรูป */
+}
+
+/* ตกแต่งตาราง */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อเมาส์ Hover บนลิงก์ */
+a:hover {
+    text-decoration: underline; /* ใส่เส้นใต้ข้อความ */
+    color: #ff6600; /* เปลี่ยนสีข้อความเมื่อ Hover */
+}
